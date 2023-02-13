@@ -1,0 +1,97 @@
+@font-face {
+    font-family: KeyCapsFont;
+    src: url(/KeyCapsFLF.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(245, 246, 247);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+a {
+    width: 7%;
+}
+
+.logo {
+    width: 100%;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: "KeyCapsFont", sans-serif;
+    font-size: 60px;
+}
+
+.header {
+    width: 100%;
+    height: 10%;
+    background-color: rgba(0, 0, 0, 0.101);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 4px black double;
+
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    width: 100%;
+    height: 70%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-img {
+    width: 500px;
+    margin-right: 100px;
+}
+
+.details {
+    width: 20%;
+    height: 500px;
+    
+}
+
+
+h2 {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+
+button {
+    width: 270px;
+    height: 70px;
+    font-size: 35px;
+    border-width: 3px;
+
+}
