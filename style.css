@@ -19,7 +19,7 @@ body {
 }
 
 .logo {
-    width: 7%;
+    width: 90px;
 }
 
 h1 {
@@ -107,5 +107,20 @@ h3 {
 
 }
 
-
-
+@media screen and (max-width: 1523px) {
+    .collections {
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    .box1, .box2, .box3 {
+        width: 200px;
+        height: 200px;
+    }
+    .header {
+        justify-content: center;
+    }
+    h1 {
+        font-size: 30px
+    }
+}
